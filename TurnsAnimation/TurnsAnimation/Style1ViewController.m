@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
     CFCoverFlowView *coverFlowView2 = [[CFCoverFlowView alloc] initWithFrame:CGRectMake(0, 120, [UIScreen mainScreen].bounds.size.width, 300)];
     coverFlowView2.backgroundColor = [UIColor groupTableViewBackgroundColor];
     coverFlowView2.pageItemWidth = 200;

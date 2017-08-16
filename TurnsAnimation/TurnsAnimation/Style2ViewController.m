@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
     
     //只能设置5张图片
     NSMutableArray * arr = [NSMutableArray arrayWithObjects:@"",@"",@"",@"",@"", nil];
